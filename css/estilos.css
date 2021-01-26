@@ -4,27 +4,32 @@ body{
 /*regla de especificidad*/
 .navbar>.container.centered{
 	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-right: 50px;
 }
 
 .sidebar-collapse [class*="navbar-expand-"] .navbar-collapse.show {
     width: 100%;
 }
 
-@media (max-width: 353px) {
-	.navbar>.container.centered{
+@media (max-width: 380px) {
+	/*.navbar>.container.centered{
 		justify-content: start;
-	}
+	}*/
 }
 
 @media (max-width: 660px) {
 	.navbar .navbar-toggler {
-	  padding-right: 90px;
+	  padding-right: 40px;
 	}
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
 	.navbar .navbar-toggler {
-	  padding-right: 50px;
+	  padding-right: 20px;
+	}
+	.navbar>.container.centered{
+		justify-content: space-between;
 	}
 }
 
