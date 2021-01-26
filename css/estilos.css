@@ -6,8 +6,8 @@ body{
 	justify-content: space-between;
 }
 
-.sidebar-collapse [class*="navbar-expand-"] .navbar-collapse {
-    width: 150px;
+.sidebar-collapse [class*="navbar-expand-"] .navbar-collapse.show {
+    width: 100%;
 }
 
 @media (max-width: 353px) {
