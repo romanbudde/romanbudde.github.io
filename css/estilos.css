@@ -1,3 +1,6 @@
+body{
+	/*background-color: red;*/
+}
 /*regla de especificidad*/
 .navbar>.container.centered{
 	justify-content: space-between;
