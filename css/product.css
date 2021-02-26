@@ -1,0 +1,119 @@
+.product-description-container{
+    margin-top: 180px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.right-div{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 55px;
+}
+
+.card-header{
+    background-color: transparent;
+    width:100%;
+    padding:7px 7px;
+    border:none;
+}
+
+.card-header h5{
+    margin:auto;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-header ul{
+    line-height: 55px;
+}
+
+.card-header li p{
+    margin: auto;
+    font-size: 1.1em;
+}
+
+p{
+    margin-top:16px;
+}
+
+.title{
+    padding-top: 0px;
+}
+
+.cards-container{
+    display:grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 100%;
+    height:350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap:3%;
+}
+
+.rectangle{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:0.5px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 15px 1px rgb(0 0 0 / 30%);
+}
+
+.rectangle h3{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.rectangle p{
+    text-align: center;
+}
+
+.fa-address-card{
+    font-size: 50px;
+}
+
+.fa-heart{
+    font-size: 50px;
+}
+
+.fa-truck{
+    font-size: 50px;
+}
+
+.also-interested-in-container{
+    background-color: rgba(0, 0, 0, 0.8);
+    height:600px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    padding: 0 50px 0 50px;
+}
+
+.also-interested-in-container h3{
+    margin-top:60px;
+    color:white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.interested-items-container{
+    width:100%;
+    height: 80%;
+    display:grid;
+    padding: 40px 50px 30px 40px;
+    grid-template-rows: 100%;
+    grid-template-columns: repeat(4, 23.5%);
+    gap: 2%;
+}
+
+.item-container{
+    background-color: white;
+    border-radius: 5px;
+}

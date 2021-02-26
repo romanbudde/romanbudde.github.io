@@ -53,3 +53,6 @@ body{
 	}
 }
 
+.border-round:hover{
+	border-radius: 30px !important;
+}
