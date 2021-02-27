@@ -72,6 +72,18 @@
 
 }
 
+@media (min-width: 500px){
+    .product-description-container{
+        margin: 180px 50px 50px 50px;
+    }
+}
+
+@media (max-width: 500px){
+    .product-description-container{
+        margin: 180px 15px 50px 15px;
+    }
+}
+
 @media (min-width:400px){
     .cards-container{
         margin: 50px 50px 50px 50px;
@@ -87,10 +99,6 @@
 
 #carouselExampleIndicators{
     max-width: 599px;
-}
-
-.product-description-container{
-    margin: 180px 50px 50px 50px;
 }
 
 .right-div{
@@ -139,7 +147,12 @@ p{
     gap:3%;
 }
 
+.rectangle-container{
+    position: relative;
+}
+
 .rectangle{
+    /* position: relative; */
     height:100%;
     display:flex;
     flex-direction: column;
@@ -147,27 +160,57 @@ p{
     align-items: center;
     border:0.5px solid rgba(0, 0, 0, 0.15);
     box-shadow: 0 3px 15px 1px rgb(0 0 0 / 30%);
+    /* background-image: url(/imagenes/fondo3.jpg);
+    background-size: cover;
+    background-position: 60%; */
 }
 
-.rectangle h3{
+.background-image{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-image: url(/imagenes/fondo3.jpg);
+    background-size: cover;
+    background-position: 65%;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+/* .rectangle img{
+    object-fit: unset;
+    height: 100%;
+    
+    max-width: 100%;
+    position: absolute;
+    object-fit: fill;
+    z-index: -1;
+    filter:brightness(50%);
+} */
+
+.rectangle > h3{
+    color: white;
     margin-top: 20px;
     margin-bottom: 0px;
     text-align: center;
 }
 
-.rectangle p{
+.rectangle > p{
+    color:white;
     text-align: center;
 }
 
 .fa-address-card{
+    color: white;
     font-size: 50px;
 }
 
 .fa-heart{
+    color: white;
     font-size: 50px;
 }
 
 .fa-truck{
+    color: white;
     font-size: 50px;
 }
 
