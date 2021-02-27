@@ -53,6 +53,17 @@ body{
 	}
 }
 
+nav ul{
+	text-align: center;
+}
+
 .border-round:hover{
 	border-radius: 30px !important;
+}
+
+.footer nav{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
