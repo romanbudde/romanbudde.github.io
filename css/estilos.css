@@ -53,6 +53,16 @@ body{
 	}
 }
 
+
+#carouselExampleIndicators{
+    max-width: 599px;
+}
+
+#productos .container{
+	display: flex;
+	justify-content: center;
+}
+
 nav ul{
 	text-align: center;
 }
@@ -67,3 +77,14 @@ nav ul{
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+.carousel-caption a{
+	color: white;
+	text-decoration: none;
+	transition: all 0.4s;
+}
+
+.carousel-caption a:hover{
+	color: rgba(255, 255, 255, 0.65);
+}
+

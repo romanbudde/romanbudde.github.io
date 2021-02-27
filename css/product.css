@@ -5,7 +5,7 @@
     }
 
     .also-interested-in-container{
-        height: 600px;
+        height: 700px;
     }
 }
 
@@ -201,6 +201,7 @@ p{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 
 .item-container img{
